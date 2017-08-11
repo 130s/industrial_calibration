@@ -26,5 +26,5 @@ install:
   - git clone https://github.com/ros-industrial/industrial_ci.git .ci_config
 
 script:
-  - source .travis_ceres.sh
+#  - source .travis_ceres.sh  # 20170811 No longer needed now binary of libceres-dev is available.
   - source .ci_config/travis.sh
